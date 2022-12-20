@@ -11,6 +11,10 @@
   margin: 0;
   padding: 0;
 }
+*::selection {
+  background: var(--pink);
+  color: #fff;
+}
 /* Header styling */
 .header-div {
   box-shadow: 10px 30px 144px 20px rgba(203, 172, 207, 0.79);
@@ -53,3 +57,58 @@ ul {
 .header-div ul li a:hover {
   color: var(--pink);
 }
+
+/* Showcase styling */
+.showcase {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: auto;
+  grid-column-gap: 2px;
+  width: 100%;
+  font-family: "Tiro Gurmukhi", serif;
+}
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 10%;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.container-1 h1 {
+  font-family: "Joan", serif;
+  color: #2a2929;
+  font-size: 4em;
+}
+
+.container-1 span {
+  color: var(--pink);
+}
+.container-1 p {
+  color: #2a2929;
+  line-height: 1.5;
+}
+
+.container-1 button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 3rem;
+  border-radius: 5rem;
+  border: none;
+  background: var(--gradient);
+  font-size: 1.7rem;
+  color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+button:hover {
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.container-2 img {
+  width: 80%;
+  height: 100vh;
+  margin: 5%;
+}
+/* Features section */
