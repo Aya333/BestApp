@@ -126,11 +126,12 @@ ul {
 .main-container {
   overflow: hidden;
 }
-.main-container h2 {
+.h2-title {
   color: var(--purple);
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 2.5em;
+  margin: 7% 0 0;
 }
 .grid-container {
   display: grid;
@@ -188,3 +189,30 @@ ul {
 }
 
 /*                                   About styling                     */
+.about-grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: auto;
+  grid-column-gap: 2px;
+  width: 100%;
+}
+.col-1 {
+  background-image: url(img/about-bg.png);
+}
+.col-1 img {
+  width: 70%;
+  height: 100vh;
+  margin: 5%;
+}
+
+.col-2 {
+  border: 2px solid black;
+  margin: 30% 5% 0;
+}
+.col-2 h3 {
+  color: #989393;
+  font-size: 2em;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  margin: 5px;
+}
