@@ -471,3 +471,69 @@ ul {
 /*     
                               Footer styling                     
 */
+footer {
+  padding: 3rem 0;
+  background: url(img/footer-bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.footer-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 50px;
+  margin: 5% 2%;
+}
+.f-about {
+  width: 100%;
+}
+.f-title {
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid #d5caca;
+  margin: 5% 0;
+}
+
+.f-about p {
+  color: #fff;
+  font-family: "Tiro Gurmukhi", serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.q-links ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.q-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-family: "Tiro Gurmukhi", serif;
+}
+.info i {
+  border-radius: 50%;
+  background: #fff;
+  color: var(--pink);
+  font-size: 1rem;
+  height: 2rem;
+  width: 2rem;
+  line-height: 2rem;
+  text-align: center;
+}
+.info p {
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  color: #eee;
+}
+.copy-rights {
+  font-size: 1.3rem;
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+  color: #fff;
+  border-top: 0.1rem solid #fff5;
+  text-align: center;
+  padding-top: 1.5rem;
+}
