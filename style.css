@@ -243,3 +243,164 @@ ul {
 .icon-2 {
   width: 15px;
 }
+/*     
+                              Newsletter styling                     */
+
+.sub {
+  margin: 7% 0 0;
+}
+.container-sub {
+  background: url(img/subscribe-bg.png);
+  background-size: auto;
+  background-position: center;
+  width: 100%;
+  height: 60%;
+  text-align: center;
+  color: #fff;
+  padding: 5% 0;
+}
+
+.container-sub h2 {
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+}
+
+.container-sub p {
+  font-family: "Tiro Gurmukhi", serif;
+  padding: 10px 50px;
+  margin: 5px auto;
+  width: 60%;
+  text-align: center;
+}
+
+.buttonIn {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  border: 0.2rem solid #fff;
+  padding: 0.5rem;
+  border-radius: 5rem;
+  margin: 1rem auto 0;
+}
+
+.email {
+  padding: 0 2rem;
+  font-size: 1.3rem;
+  background: none;
+  width: 100%;
+  color: #fff;
+  text-transform: none;
+  background: none;
+  border: none;
+}
+
+.email::placeholder {
+  color: #eee;
+  text-transform: capitalize;
+}
+.subscribe {
+  background: #fff;
+  width: 20%;
+  padding: 5px 0;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5rem;
+  cursor: pointer;
+  border: none;
+  color: #2a2929;
+}
+/*     
+                              Reviews styling                     
+*/
+.name {
+  color: var(--pink);
+  font-size: 1.5rem;
+}
+.doe {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.review {
+  margin: 10px auto;
+}
+.stars {
+  color: var(--purple);
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+/*     
+                              Pricing plans styling                     
+*/
+.prices {
+  width: 80%;
+  margin: 5% auto;
+}
+.grid-container-price {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 2px;
+  width: 100%;
+  margin: 5% 0;
+}
+.price-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-around;
+  text-align: center;
+  color: #2a2929;
+  border: 1px solid #989393;
+  margin: 0 5%;
+  padding: 3%;
+}
+.price-card:nth-child(2) {
+  border: 0.2rem solid var(--pink);
+}
+.price-card h3 {
+  margin: 5px;
+  color: var(--purple);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+}
+.price-card p {
+  color: var(--pink);
+  font-family: "Tiro Gurmukhi", serif;
+  font-size: 1.7rem;
+  margin: 7px;
+}
+.price-card .price {
+  font-size: 2.7rem;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-around;
+  margin: 15px 5px;
+  font-family: "Tiro Gurmukhi", serif;
+  line-height: 1.5;
+}
+.list li {
+  margin: 5px;
+}
+.list .fa-check {
+  color: #90ee90;
+}
+.list .fa-times {
+  color: #ff6347;
+}
+
+.checkout {
+  background: var(--gradient);
+  color: #fff;
+  border: none;
+  border-radius: 5em;
+  width: 50%;
+  padding: 3% 2%;
+  margin: 5% auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+}
