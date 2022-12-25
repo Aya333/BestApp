@@ -404,3 +404,70 @@ ul {
   font-family: "Poppins", sans-serif;
   font-size: 1em;
 }
+/*     
+                              Contact Form styling                     
+*/
+.contact {
+  margin: 8% auto;
+}
+.main-contact-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  column-gap: 2%;
+}
+.column1 img {
+  margin: 3%;
+  width: 45vw;
+}
+.column2 {
+  margin: 5%;
+  border: 1px solid #989393;
+  box-shadow: -7px 28px 152px 3px rgba(209, 184, 184, 0.57);
+  padding: 3%;
+}
+.form-title {
+  color: var(--purple);
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.2em;
+  margin: 2%;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.contact-form label {
+  font-weight: bold;
+  color: #746e6e;
+  font-family: "Tiro Gurmukhi", serif;
+  font-size: 1.1rem;
+  margin: 1% 0;
+}
+.contact-form input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #989393;
+}
+.contact-form #tarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #989393;
+}
+.message {
+  background: var(--gradient);
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  width: 40%;
+  padding: 2% 2%;
+  margin: 3% 1%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+}
+/*     
+                              Footer styling                     
+*/
